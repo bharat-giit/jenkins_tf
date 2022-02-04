@@ -32,5 +32,5 @@ variable "availability_zones" {
 
 variable "s3_bucket_names" {
   type    = list(any)
-  default = ["dev-bucket1.app", "uat-bucket2.app", "prod-bucket3.app"]
+  default = ["dev-bucket11.app", "uat-bucket12.app", "prod-bucket13.app"]
 }
